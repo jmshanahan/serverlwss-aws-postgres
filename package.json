@@ -1,0 +1,31 @@
+{
+  "name": "awsapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow",
+    "flow:check": "flow check ./",
+    "format": "prettier --write '**/*.{js,jsx}'",
+    "lint": "eslint '**/*.{js,jsx}' --quiet"
+  },
+  "devDependencies": {
+    "@types/flowjs": "^0.0.31",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.0",
+    "flow-bin": "^0.79.1",
+    "prettier": "^1.14.2",
+    "serverless-offline": "^3.25.9"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
